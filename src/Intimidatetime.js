@@ -741,7 +741,7 @@
 						
 						// because some months have diff number of days...
 						if(unit === 'year' || unit === 'month'){
-							date.setDate(1);
+							//date.setDate(1);
 							tmpd.setDate(1);
 							val = date['get'+u.map]();
 						}
